@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabriel Rodrigues - DoWhile 2021</title>
 
     <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -21,40 +23,51 @@
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-
-          <img src="images/GabrielRodrigues.jpeg" alt="Foto pessoal" />
+          <img
+            src="https://lorempixel.com/185/185/people/"
+            alt="Foto pessoal"
+            id="UserImage"
+          />
         </div>
 
-        <h1>Gabriel Rodrigues</h1>
-        <a target="_blank" href="https://github.com/rsgabriel01">
-          <img src="images/github.svg" alt="Ícone github" />
-          rsgabriel01
-        </a>
+        <h1 id="userName">User Name</h1>
+        <a id="userLink" href="https://github.com/" target="_blank">
+          <img src="images/github.svg" alt="ícone github" />
+          <span id="userLogin">userlogin</span></a
+        >
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://youtube.com">
-              <img src="images/youtube.svg" alt="Ícone do Youtube" />
+        <p id="userBio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          provident aut deleniti natus, debitis aliquid iure cumque pariatur
+          quae odio itaque repellendus rerum similique cum? Amet dolorum ab
+          adipisci pariatur
+        </p>
+
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/" target="_blank">
+              <img src="images/youtube.svg" alt="ícone youtube" />
             </a>
           </li>
-          <li>
-            <a target="_blank" href="https://facebook.com">
-              <img src="images/facebook.svg" alt="Ícone do Facebook" />
+          <li class="facebook">
+            <a href="https://facebook.com/" target="_blank">
+              <img src="images/facebook.svg" alt="ícone facebook" />
             </a>
           </li>
-          <li>
-            <a target="_blank" href="https://instagram.com">
-              <img src="images/instagram.svg" alt="Ícone do Instagram" />
+          <li class="instagram">
+            <a href="https://instagram.com/" target="_blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
-            <a target="_blank" href="https://twitter.com">
-              <img src="images/twitter.svg" alt="Ícone do Twitter" />
+          <li class="twitter">
+            <a href="https://twitter.com/" target="_blank">
+              <img src="images/twitter.svg" alt="ícone twitter" />
             </a>
           </li>
         </ul>
       </div>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
